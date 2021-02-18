@@ -17,7 +17,7 @@
   --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Typography/Fonts =====*/
 :root {
   --body-font: "Montserrat", sans-serif;
   --big-font-size: 1.25rem;
@@ -34,7 +34,7 @@
   }
 }
 
-/*===== Margeins =====*/
+/*===== Margins =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -314,19 +314,17 @@ img {
   color: var(--white-color);
 }
 
-.about__img {
+/* .about__img {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
-}
-.about__img img {
-  width: 100px;
-}
+} */
+
 .about__subtitle {
   font-size: var(--h2-font-size);
   color: var(--first-color);
@@ -569,7 +567,7 @@ small {
       rgba(0.5, 0.5, 0.5, 0.73),
       rgba(15, 14, 15, 0.73)
     ),
-    url("/assets/img/community.jpg");
+    url("/assets/img/Love_4_Humanity/hero-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -755,13 +753,13 @@ small {
     text-align: initial;
     padding: 4rem 0;
   }
-  .about__img {
+  /* .about__img {
     width: 200px;
     height: 200px;
   }
   .about__img img {
     width: 165px;
-  }
+  } */
 
   .skills__container {
     grid-template-columns: repeat(2, 1fr);

@@ -1,237 +1,317 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portfolio responsive complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Nkenganyi Clovis</a>
-                </div>
+    <!-- ===== Animation On scroll ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <title>Portfolio responsive complete</title>
+</head>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title">CLOVIS.</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
-                    </div>
-
-                    <img src="assets/img/hero-img.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/hero-img.png" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">I'am Nkenganyi Clovis</h2>
-                        <span class="about__profession">Full Stack Web Developer</span>
-                        <p class="about__text">My name is Nkenganyi Clovis. A Software Engineer & full stack web developer</p>
-
-                        <div class="about__social">
-                            <!-- https://wa.me/ -->
-                            <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i class='bx bxl-whatsapp'></i></i></a>
-                            <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4" target="blank" class="about__social-icon"><i class='bx bxl-instagram'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">CSS</span>
-                        <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Wordpress</span>
-                        <span class="skills__name">React</span>
-                        <span class="skills__name">Angular</span>
-                        <span class="skills__name">Node Js</span>
-                        <span class="skills__name">My SQL</span>
-                        <span class="skills__name">Maria DB</span>
-                        
-                        <h3 class="skills__subtitle">Design</h3>
-                        <span class="skills__name">Adobe XD</span>
-                        <span class="skills__name">Adobe Illustrator</span>
-                        <span class="skills__name">Photoshop</span>
-
-                        <h3 class="skills__subtitle">Digital Marketing</h3>
-                        <span class="skills__name">Sociale Media Marketing</span>
-                        <span class="skills__name">Google Ads</span>
-                        <span class="skills__name">Email Marketing</span>
-                        <span class="skills__name">SEO</span>
-                    </div>
-
-                    <div class="skills__img">
-                        <img src="assets/img/Pic-6.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <p class="skill-description">Web Development</p>
-                        <img src="assets/img/web-dev.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <p class="skill-description">Digital Marketing</p>
-                        <img src="assets/img/digital-marketing.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <p class="skill-description">Design</p>
-                        <img src="assets/img/graphic-design.jpeg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <p class="skill-description">Awards</p>
-                        <img src="assets/img//awards.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <p class="skill-description">Community Development</p>
-                        <img src="assets/img/community.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <p class="skill-description">Projects</p>
-                        <img src="assets/img/projects.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <a href="mailto: nkenganyiclovis9@gmail.com"><span class="contact__text">nkenganyiclovis9@gmail.com<i class='bx bx-mail-send contact-icon'></i></span></a>
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <a href="tel:+237681117453" class="contact__text">+(237) 681-117-453<span><i class='bx bxs-phone contact-icon'></i></span></a>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Cameroon-Buea<i class='bx bxs-location-plus contact-icon'></i></span>
-                    </div> 
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="Send" class="contact__button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">NKENGANYI CLOVIS</h2>
-                    <p class="footer__text">I'm Nkenganyi Clovis and this is my personal website</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i class='bx bxl-whatsapp'></i></i></a>
-                    <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4" target="blank" class="about__social-icon"><i class='bx bxl-instagram'></i></a>
-                </div>
-
-
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Nkenganyi Clovis</a>
             </div>
-            <small>&copy;2020 Nk-Clovis All Rights Reserved</small>
-        </footer>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Skills</a></li>
+                    <div class="dropdown">
+                        <li class="nav__item"><a href="#skills" class="nav__link dropbtn">Portfolio</a>
+                            <i class='bx bxs-chevron-down'></i>
+                        </li>
+                        <div class="dropdown-content">
+                            <a href="web-dev.html">Web Dev Projects</a>
+                            <a href="Community.html">Community Development</a>
+                            <a href="https://dev.to/clovissocial" target="_blank">Blogging</a>
+                        </div>
+                    </div>
+                    
+                    <!-- <li class="nav__item"><a href="https://dev.to/clovissocial" target="_blank"
+                            class="nav__link">Blogging</a></li> -->
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                    <!-- <li><i class='bx bx-moon change-theme' id="theme-button"></i></li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title">CLOVIS.</h1>
+
+                <div class="home__scroll">
+                    <a href="#contact" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Hire Me</a>
+                </div>
+
+                <img src="assets/img/hero-img.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title h2-heading">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/hero-img.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Nkenganyi Clovis</h2>
+                    <span class="about__profession"><b>Software Engineering Student, Full Stack Web Developer, Graphic
+                            Designer & Digital Marketer</b></span>
+                    <p class="about__text">
+                        My name is Nkenganyi Clovis. Am a tech enthusiast who has had a passion for computer since
+                        birth which has made me to pursue an eduction background in the domain. <br>
+                        I am privilege to have had an HND in Software Engineering and am currently undergoing a <b>Full Stack
+                        Web Development</b> training programme, which within this period, I have been able to construct some 
+                        real world projects <a href="web-dev.html#project-details" target="_blank" style="color: #0794e6;">(see here)</a> and I have also been Certified by <b>Google</b> in <b>Digital Marketing</b> under the 
+                        <a href="https://learndigital.withgoogle.com/digitalskills/courses" style="color: #0794e6;">Google Digital Skills for Africa</a>
+                        programme. <a href="https://drive.google.com/file/d/1f1f_DVBMexHsY8geNKO6p5sC1p5lUBsM/view?usp=sharing" target="_blank" style="color: #0794e6;">(See here)</a>
+                        <br><br>Am also an award winning community development personnel who finds joy in helping the
+                        less privilege in the society.
+                        <a href="Community.html#honour-section" target="_blank" style="color: #0794e6;">(see here)</a>
+                    </p>
+
+                    <div class="about__social">
+                        <!-- https://wa.me/ -->
+                        <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-whatsapp'></i></i></a>
+                        <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank"
+                            class="about__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com/NkenganyiClovis" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                        <!-- <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4"
+                            target="blank" class="about__social-icon"><i class='bx bxl-instagram'></i></a> -->
+                        <a href="https://dev.to/clovissocial" target="blank" class="about__social-icon"><i
+                                class='bx bxl-dev-to'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title h2-heading">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">CSS</span>
+                    <span class="skills__name">Javascript</span>
+                    <span class="skills__name">Wordpress</span>
+                    <span class="skills__name">React</span>
+                    <span class="skills__name">Angular</span>
+                    <span class="skills__name">Node Js</span>
+                    <span class="skills__name">My SQL</span>
+                    <span class="skills__name">Maria DB</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Adobe XD</span>
+                    <span class="skills__name">Adobe Illustrator</span>
+                    <span class="skills__name">Photoshop</span>
+
+                    <h3 class="skills__subtitle">Digital Marketing</h3>
+                    <span class="skills__name">Sociale Media Marketing</span>
+                    <span class="skills__name">Google Ads</span>
+                    <span class="skills__name">Email Marketing</span>
+                    <span class="skills__name">SEO</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/img/Pic-6.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title h2-heading">Portfolio</h2>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <p class="skill-description">Web Dev Projects</p>
+                    <img src="assets/img/web-dev.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="web-dev.html" class="portfolio__link-name portfolio__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="web-dev.html" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div>
+                <!-- <div class="portfolio__img">
+                    <p class="skill-description">Projects</p>
+                    <img src="assets/img/projects.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name portfolio__button">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="#" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div> -->
+                <!-- <div class="portfolio__img">
+                    <p class="skill-description">Digital Marketing</p>
+                    <img src="assets/img/digital-marketing.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name portfolio__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="#" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div>
+                <div class="portfolio__img">
+                    <p class="skill-description">Design</p>
+                    <img src="assets/img/graphic-design.jpeg" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="#" class="portfolio__link-name portfolio__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="#" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div> -->
+                <div class="portfolio__img">
+                    <p class="skill-description">Blogging</p>
+                    <img src="assets/img//Blogger.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://dev.to/clovissocial" target="_blank"
+                            class="portfolio__link-name portfolio__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="https://dev.to/clovissocial"target="_blank" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div>
+                <div class="portfolio__img">
+                    <p class="skill-description">Community Development</p>
+                    <img src="assets/img/community.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="Community.html" class="portfolio__link-name portfolio__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="portfolio__linkBottom">
+                    <a href="Community.html" class="portfolio__link-name portfolio__button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title h2-heading">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <a href="mailto: nkenganyiclovis9@gmail.com"><span
+                            class="contact__text">nkenganyiclovis9@gmail.com<i
+                                class='bx bx-mail-send contact-icon'></i></span></a>
+                    <hr style="color: white;">
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <a href="tel:+237681117453" class="contact__text">+(237) 681-117-453<span><i
+                                class='bx bxs-phone contact-icon'></i></span></a>
+                    <hr style="color: white;">
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Cameroon-Buea<i class='bx bxs-location-plus contact-icon'></i></span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input name" required>
+                        <input type="email" placeholder="Email" class="contact__input email" required>
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input message"></textarea>
+
+                    <input type="submit" value="Send" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">NKENGANYI CLOVIS</h2>
+                <p class="footer__text">I'm Nkenganyi Clovis and this is my portfolio website</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW</h2>
+                <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i
+                        class='bx bxl-whatsapp'></i></i></a>
+                <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank"
+                    class="about__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/NkenganyiClovis" target="_blank" class="about__social-icon"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://dev.to/clovissocial" target="blank" class="about__social-icon"><i
+                        class='bx bxl-dev-to'></i></a>
+                <!-- <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4" target="blank"
+                    class="about__social-icon"><i class='bx bxl-instagram'></i></a> -->
+            </div>
+
+            <small class="footer__data">&copy;2020 Nk-Clovis All Rights Reserved</small>
+        </div>
+    </footer>
+
+
+
+    <!--====== Firebase ======-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== Animation on scroll ======-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
 </html>

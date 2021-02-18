@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ====== Bootstrap CSS =====-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== Animation On scroll ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Web Development Skills</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo logo-hover">Nkenganyi Clovis</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Skills</a></li>
+                    <div class="dropdown">
+                        <li class="nav__item"><a href="#skills" class="nav__link dropbtn">Portfolio</a></li>
+                        <div class="dropdown-content">
+                            <a href="web-dev.html">Web Dev Projects</a>
+                            <a href="Community.html">Community Development</a>
+                            <a href="https://dev.to/clovissocial" target="_blank">Blogging</a>
+                        </div>
+                    </div>
+                    <i class='bx bxs-chevron-down'></i>
+                    
+                    <!-- <li class="nav__item"><a href="https://dev.to/clovissocial" target="_blank"
+                            class="nav__link">Blogging</a></li> -->
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                    <!-- <li><i class='bx bx-moon change-theme' id="theme-button"></i></li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <header class="header"></header> -->
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title-web dev-heading">Web Development.</h1>
+
+
+                <!--===== Breadcrumbs =====-->
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html" style="color: #0794e6;">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Web Dev</li>
+                    </ol>
+                </nav>
+
+
+                <!-- <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
+                </div> -->
+
+                <img src="assets/img/web-development.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="project-details">
+            <h2 class="section-title h2-heading">Web Development</h2>
+
+            <div class="about__container bd-grid">
+                <div class="web-dev__img">
+                    <img src="assets/img/web-dev.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Web Development Projects</h2>
+                    <span class="about__profession"><b>Software Engineering Student, Full Stack Web Developer, Tech
+                            Blogger, Graphic
+                            Designer & Digital Marketer</b></span>
+                    <p class="about__text">
+                        My name is Nkenganyi Clovis. Am a tech enthusiast who has had a passion technology since
+                        birth. <br />
+                        Throughout my journey and experience in the web development, I have had the opportunity to work
+                        on certain projects which has helped
+                        imporove
+                        my technical know-how, my abilities and technicalities.
+                        <br><br>Some of the projects I have worked on include: <br>
+                        <a href="https://www.goldplazashopping.com" class="links">Gold-Plaza-Shopping</a><br />
+                        <a href="https://www.thejasonsfoundation.com" class="links">The Jason Foundation</a><br />
+                        <a href="https://www.bazdaily.com" class="links">Baz Daily </a><br>
+
+                        You can also checkout my github repo to see more amazing projects
+                        <a href="https://github.com/clovissocial/Covid19-Tracker" class="links"> Corona Virus Tracker
+                            using Angular </a><br>
+
+                    </p>
+
+                    <div class="about__social">
+                        <!-- https://wa.me/ -->
+                        <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-whatsapp'></i></i></a>
+                        <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank"
+                            class="about__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com/NkenganyiClovis" target="_blank" class="about__social-icon"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                        <!-- <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4"
+                            target="blank" class="about__social-icon"><i class='bx bxl-instagram'></i></a> -->
+                        <a href="https://dev.to/clovissocial" target="blank" class="about__social-icon"><i
+                                class='bx bxl-dev-to'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title h2-heading">Get In Touch With Me</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <a href="mailto: nkenganyiclovis9@gmail.com"><span
+                            class="contact__text">nkenganyiclovis9@gmail.com<i
+                                class='bx bx-mail-send contact-icon'></i></span></a>
+                    <hr style="color: white;">
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <a href="tel:+237681117453" class="contact__text">+(237) 681-117-453<span><i
+                                class='bx bxs-phone contact-icon'></i></span></a>
+                    <hr style="color: white;">
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Cameroon-Buea<i class='bx bxs-location-plus contact-icon'></i></span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input name" required>
+                        <input type="email" placeholder="Email" class="contact__input email" required>
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input message"></textarea>
+
+                    <input type="submit" value="Send" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">NKENGANYI CLOVIS</h2>
+                <p class="footer__text">I'm Nkenganyi Clovis and this is my portfolio website</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#Contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW</h2>
+                <a href="https://wa.me/237681117453" target="_blank" class="about__social-icon"><i
+                        class='bx bxl-whatsapp'></i></i></a>
+                <a href="https://www.linkedin.com/in/nkenganyi-clovis-4310b41ba/" target="_blank"
+                    class="about__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/NkenganyiClovis" target="_blank" class="about__social-icon"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/clovissocial" target="blank" class="about__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://dev.to/clovissocial" target="blank" class="about__social-icon"><i
+                        class='bx bxl-dev-to'></i></a>
+                <!-- <a href="https://www.instagram.com/invites/contact/?i=vgd35wbg1xvo&utm_content=ggq6lz4" target="blank"
+                    class="about__social-icon"><i class='bx bxl-instagram'></i></a> -->
+            </div>
+
+            <small class="footer__data">&copy;2020 Nk-Clovis All Rights Reserved</small>
+        </div>
+    </footer>
+
+
+
+    <!--====== Firebase ======-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ====== Bootstrap JS=====-->
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!--===== Animation on scrol ======-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
